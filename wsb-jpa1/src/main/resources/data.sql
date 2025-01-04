@@ -44,3 +44,8 @@ VALUES
 INSERT INTO treatment_for_visit (visit_id, treatment_id)
 VALUES
     (1, 1),
+    (2, 2),
+    (3, 3),
+    (4, 4),
+    (5, 5),
+    (6, 6);

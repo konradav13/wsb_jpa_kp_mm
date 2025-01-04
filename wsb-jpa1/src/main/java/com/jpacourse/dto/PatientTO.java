@@ -75,7 +75,6 @@ public class PatientTO implements Serializable {
     public void setVisits(List<VisitEntity> visits) {
         this.visits = visits;
     }
-
     public Gender getGender() {
         return gender;
     }

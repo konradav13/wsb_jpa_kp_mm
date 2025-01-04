@@ -5,6 +5,8 @@ import com.jpacourse.persistence.entity.AddressEntity;
 
 public final class AddressMapper
 {
+    private AddressMapper() {
+    }
 
     public static AddressTO mapToTO(final AddressEntity addressEntity)
     {

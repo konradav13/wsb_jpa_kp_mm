@@ -8,14 +8,14 @@ VALUES
     ('Liverpool', 'Kings Road', 'Boulevard', 'BS1 4TR');
 
 
-INSERT INTO PATIENT (first_name, last_name, telephone_number, email, patient_number, date_of_birth, address_id)
+INSERT INTO PATIENT (first_name, last_name, telephone_number, email, patient_number, date_of_birth, address_id, gender)
 VALUES
-    ('Adam', 'Taylor', '987654321', 'adam.taylor@gmail.com', 'P001', '1989-11-12', 4),
-    ('Emma', 'Jackson', '777888999', 'emma.jackson@gmail.com', 'P004', '1979-09-19', 3),
-    ('Sophia', 'Wrong', '321654987', 'sophia.wrong@gmail.com', 'P006', '1992-05-05', 5),
-    ('Julia', 'Granger', '987654321', 'julia.granger@gmail.com', 'P003', '1981-02-13', 5),
-    ('James', 'Lovegood', '321654987', 'james.lovegood@gmail.com', 'P009', '1979-09-19', 3),
-    ('Sophia', 'White', '321654987', 'sophia.white@gmail.com', 'P009', '1989-11-12', 5)
+    ('Adam', 'Taylor', '987654321', 'adam.taylor@gmail.com', 'P001', '1989-11-12', 4, MALE),
+    ('Emma', 'Jackson', '777888999', 'emma.jackson@gmail.com', 'P004', '1979-09-19', 3, FEMALE),
+    ('Sophia', 'Wrong', '321654987', 'sophia.wrong@gmail.com', 'P006', '1992-05-05', 5, FEMALE),
+    ('Julia', 'Granger', '987654321', 'julia.granger@gmail.com', 'P003', '1981-02-13', 5, FEMALE),
+    ('James', 'Lovegood', '321654987', 'james.lovegood@gmail.com', 'P009', '1979-09-19', 3, MALE),
+    ('Sophia', 'White', '321654987', 'sophia.white@gmail.com', 'P009', '1989-11-12', 5, FEMALE)
 ;
 
 INSERT INTO DOCTOR (first_name, last_name, telephone_number, email, doctor_number, specialization, address_id)

@@ -9,3 +9,4 @@ public enum TreatmentType {
 	Therapy,
 	Salve
 }
+	

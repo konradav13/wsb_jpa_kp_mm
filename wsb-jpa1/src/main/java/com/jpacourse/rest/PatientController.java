@@ -1,11 +1,11 @@
 package com.jpacourse.rest;
 
-import com.jpacourse.dto.PatientTO;
 import com.jpacourse.rest.exception.EntityNotFoundException;
 import com.jpacourse.service.PatientService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
+import com.jpacourse.dto.PatientTO;
 
 @RestController
 public class PatientController

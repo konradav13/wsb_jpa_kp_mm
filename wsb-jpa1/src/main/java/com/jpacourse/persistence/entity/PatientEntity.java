@@ -119,5 +119,4 @@ public class PatientEntity {
 	public void setGender(Gender gender) {
 		this.gender = gender;
 	}
-
 }

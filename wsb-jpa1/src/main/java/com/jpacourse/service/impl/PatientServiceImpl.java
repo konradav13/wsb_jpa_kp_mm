@@ -12,7 +12,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Transactional
-public class PatientServiceImpl implements PatientService {
+public class PatientServiceImpl implements PatientService
+{
     private final PatientDao patientDao;
 
     @Autowired

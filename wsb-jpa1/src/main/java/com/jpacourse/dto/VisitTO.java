@@ -14,6 +14,7 @@ public class VisitTO implements Serializable {
 
     private List<TreatmentType> treatments;
 
+
     public LocalDateTime getTime() {
         return time;
     }

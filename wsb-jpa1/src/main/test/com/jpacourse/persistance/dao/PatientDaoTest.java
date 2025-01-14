@@ -80,7 +80,7 @@ public class PatientDaoTest {
     @Test
     public void testShouldHandleOptimisticLockingWithSpringException() {
         // given
-        Long patientId = 5L;
+        Long patientId = 6L;
 
         PatientEntity patientEntity1 = patientDao.findOne(patientId);
         PatientEntity patientEntity2 = patientDao.findOne(patientId);

@@ -12,19 +12,18 @@ VALUES
 
 INSERT INTO PATIENT (first_name, last_name, telephone_number, email, patient_number, date_of_birth, address_id, gender, version)
 VALUES
-    ('Adam', 'Taylor', '987654321', 'adam.taylor@gmail.com', 'P001', '1989-11-12', 4, 'MALE', 0),
-    ('Emma', 'Jackson', '777888999', 'emma.jackson@gmail.com', 'P004', '1979-09-19', 3, 'FEMALE', 0),
-    ('Sophia', 'Wrong', '321654987', 'sophia.wrong@gmail.com', 'P006', '1992-05-05', 5, 'FEMALE', 0),
-    ('Julia', 'Granger', '987654321', 'julia.granger@gmail.com', 'P003', '1981-02-13', 5, 'FEMALE', 0),
-    ('James', 'Lovegood', '321654987', 'james.lovegood@gmail.com', 'P009', '1979-09-19', 3, 'MALE', 0),
-    ('Sophia', 'White', '321657987', 'sophia.white@gmail.com', 'P010', '1989-11-12', 5, 'FEMALE', 0);
+    ('Adam', 'Taylor', '987654321', 'adam.taylor@gmail.com', 'P001', '1989-11-12', 1, 'MALE', 0),
+    ('Emma', 'Jackson', '777888999', 'emma.jackson@gmail.com', 'P004', '1979-09-19', 2, 'FEMALE', 0),
+    ('Sophia', 'Wrong', '321654987', 'sophia.wrong@gmail.com', 'P006', '1992-05-05', 3, 'FEMALE', 0),
+    ('Julia', 'Granger', '987654321', 'julia.granger@gmail.com', 'P003', '1981-02-13', 4, 'FEMALE', 0),
+    ('James', 'Lovegood', '321654987', 'james.lovegood@gmail.com', 'P009', '1979-09-19', 6, 'MALE', 0),
+    ('Sophia', 'White', '321657987', 'sophia.white@gmail.com', 'P010', '1989-11-12', 8, 'FEMALE', 0);
 
 INSERT INTO DOCTOR (first_name, last_name, telephone_number, email, doctor_number, specialization, address_id)
 VALUES
-    ('John', 'Johnjohn', '567492872', 'john.johnjohn@gmail.com', 'D001', 'SURGEON', 3),
+    ('John', 'Johnjohn', '567492872', 'john.johnjohn@gmail.com', 'D001', 'SURGEON',7),
     ('Albert', 'Car', '111222333', 'albert.car@gmail.com', 'D002', 'OCULIST', 4),
-    ('Bad', 'Good', '987654321', 'bad.good@gmail.com', 'D003', 'GP', 5),
-    ('Victor', 'Loose', '098777123', 'victor.loose@gmail.com', 'D003', 'GP', 5);
+    ('Bad', 'Good', '987654321', 'bad.good@gmail.com', 'D003', 'GP', 5 );
 
 INSERT INTO VISIT (description, time, doctor_id, patient_id)
 VALUES
@@ -33,8 +32,8 @@ VALUES
     ('Burn healing from a hot stove', '2024-01-20 14:00:00', 1, 3),
     ('Concussion from a car accident', '2024-02-05 10:00:00', 1, 4),
     ('Allergic reaction to pollen', '2024-02-15 13:00:00', 3, 5),
-    ('Headache from stress', '2024-03-01 12:00:00', 1, 6),
-    ('Stress from headacje', '2024-12-08 08:00:00', 1, 6);
+    ('Headache from stress', '2024-03-01 12:00:00', 1, 5),
+    ('Stress from headacje', '2024-12-08 08:00:00', 2, 5);
 
 INSERT INTO MEDICAL_TREATMENT (description, type)
 VALUES

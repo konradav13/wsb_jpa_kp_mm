@@ -24,35 +24,4 @@ public class PatientServiceImpl implements PatientService
     @Autowired
     public PatientServiceImpl(PatientDao pPatientDao)
     {
-        patientDao = pPatientDao;
-    }
-
-    @Override
-    public PatientTO findById(Long id) {
-        final PatientEntity entity = patientDao.findOne(id);
-        return PatientMapper.mapToTO(entity);
-    }
-
-    @Override
-    public void deleteById(Long id)
-    {
-        final PatientEntity entity = patientDao.findOne(id);
-        if (entity == null)
-        {
-            throw new EntityNotFoundException(id);
-        } else
-        {
-            patientDao.delete(entity);
-        }
-    }
-
-    @Override
-    public List<VisitTO> findByPatientId(Long id)
-    {
-        return patientDao.findOne(id).getVisits().stream()
-                .map(VisitMapper::mapToTO)
-                .collect(Collectors.toList());
-    }
-
-
-}
+        patient

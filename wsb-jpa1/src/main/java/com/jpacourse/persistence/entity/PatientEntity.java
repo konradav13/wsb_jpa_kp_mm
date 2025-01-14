@@ -105,12 +105,15 @@ public class PatientEntity {
 	public List<VisitEntity> getVisits() {
 		return visits;
 	}
+
 	public void setVisits(List<VisitEntity> visits) {
 		this.visits = visits;
 	}
+
 	public AddressEntity getAddressEntity() {
 		return addressEntity;
 	}
+
 	public void setAddressEntity(AddressEntity addressEntity) {
 		this.addressEntity = addressEntity;
 	}

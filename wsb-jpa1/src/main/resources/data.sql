@@ -5,7 +5,7 @@ VALUES
     ('Manchester', 'Portobello Road', 'Lane', 'M1 1AE'),
     ('Liverpool', 'Baker Street', 'Avenue', 'W1D 3DG'),
     ('Liverpool', 'Baker Street', 'Lane', 'EH1 1BB'),
-    ('Liverpool', 'Kings Road', 'Boulevard', 'BS1 4TR')
+    ('Liverpool', 'Kings Road', 'Boulevard', 'BS1 4TR'),
     ('Chelsea', 'Nostreet Street', 'Avenue', 'AAA BEE'),
     ('Arsenal', 'City Street', 'Lane', 'UUU 1BB'),
     ('Gdynia', 'Wojska Polskiego', 'Boulevard', 'CCC 4TR');

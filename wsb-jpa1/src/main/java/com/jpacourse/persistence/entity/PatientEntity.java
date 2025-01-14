@@ -43,6 +43,9 @@ public class PatientEntity {
 	@Enumerated(EnumType.STRING)
 	private Gender gender;
 
+	@Version
+	private int version;
+
 	public Long getId() {
 		return id;
 	}
@@ -118,5 +121,9 @@ public class PatientEntity {
 
 	public void setGender(Gender gender) {
 		this.gender = gender;
+	}
+
+	public int getVersion() {
+		return version;
 	}
 }
